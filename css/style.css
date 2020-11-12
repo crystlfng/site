@@ -1,0 +1,63 @@
+html, body{
+  height: 100%;
+}
+.text-block {
+  color: black;
+}
+body{
+  background: url(../images/Background.png) center no-repeat;
+  background-size: cover;
+  font: 16px/1 'Space Grotesk' ,'arial';
+}
+#site-wrapper{
+  display:flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#card {
+  background-color: white;
+  padding: 2em;
+  width: 550px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 2em auto;
+  border-radius: 1em;
+  -webkit-box-shadow: 0px 0px 32px -5px rgba(224,217,224,1);
+  -moz-box-shadow: 0px 0px 32px -5px rgba(224,217,224,1);
+  box-shadow: 0px 0px 32px -5px rgba(224,217,224,1);
+}
+.header{
+  font-size: 0.8rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: green;
+}
+.no-style li{
+  display: inline-block;
+
+}
+.no-style{
+  list-style: none;
+  padding-left: 0;
+}
+
+.image-block,.text-block{
+  display: inline-block;
+  vertical-align: top;
+}
+.image-block{
+  margin-right: 1em;
+}
+
+.image-block img{
+  height: 150px;
+  border-radius: 50%;
+}
